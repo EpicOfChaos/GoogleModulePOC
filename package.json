@@ -1,9 +1,14 @@
 {
-  "name": "typescriptmoduletemplate",
+  "name": "google-module-poc",
   "version": "1.0.0",
-  "description": "A template for a Typescript based module.",
-  "main": "bin/index.js",
-  "typings": "src/index.ts",
+  "description": "A proof of concept for scraping google via headless phantomjs browser.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EpicOfChaos/google-module-poc.git"
+  },
+  "license": "BSD-2-Clause",
   "scripts": {
     "build": "npm run clean && tsc -p tsconfig.json",
     "clean": "rimraf dist/**",
@@ -13,6 +18,8 @@
     "test-watch": "npm run test -- -w"
   },
   "dependencies": {
+    "inversify": "^3.3.0",
+    "phantomjs": "^2.1.7"
   },
   "devDependencies": {
     "@types/chai": "^3.4.35",

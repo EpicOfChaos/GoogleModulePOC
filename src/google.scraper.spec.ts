@@ -1,10 +1,10 @@
 import {expect} from 'chai'
-import {DoSomethingMachine} from './do-something-machine'
+import {GoogleScraper} from './google.scraper'
 
-describe('DoSomethingMachine',() => {
-    let doSomethingMachine:DoSomethingMachine
+describe('GoogleScraper', () => {
+    let doSomethingMachine: GoogleScraper
     beforeEach(( )=> {
-        doSomethingMachine = new DoSomethingMachine()
+        doSomethingMachine = new GoogleScraper()
     })
     describe('#doIt',() => {
         it('should return "Oh Yeah"', () => {

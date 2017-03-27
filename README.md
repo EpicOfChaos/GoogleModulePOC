@@ -1,5 +1,5 @@
-# TypescriptModuleTemplate
-Template project for creating node modules that has Typescript setup and configured. Uses Mocha for tests. Works on both Windows and UNIX based systems.
+# GoogleModulePOC
+A proof of concept of scraping google via phantomjs module.
 
 ---
 ## Installation

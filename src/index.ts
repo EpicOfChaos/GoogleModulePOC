@@ -1,1 +1,1 @@
-export {DoSomethingMachine} from './do-something-machine'
+export {GoogleScraper} from './google.scraper'
